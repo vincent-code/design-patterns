@@ -1,0 +1,26 @@
+{
+  "name": "vincent-code/design-patterns",
+  "description": "Design Patterns PHP",
+  "authors": [
+    {
+      "name": "Vincent",
+      "email": "0code01@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "DesignPatterns\\Src\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DesignPatterns\\Tests\\": "tests/"
+    }
+  }
+}
